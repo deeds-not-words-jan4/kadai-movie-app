@@ -1,0 +1,5 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/tmdb-test/page": "app/tmdb-test/page.js",
+  "/tmdb-test/[id]/page": "app/tmdb-test/[id]/page.js"
+}
