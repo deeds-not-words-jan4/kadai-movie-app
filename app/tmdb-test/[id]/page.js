@@ -1,8 +1,16 @@
 // app/tmdb-test/[id]/page.js
-import { fetchMovieDetails, getImageUrl } from "@/lib/tmdb";
+import { fetchMovieDetails, fetchPopularMovies, getImageUrl } from "@/lib/tmdb";
 import Image from "next/image";
 import Link from "next/link";
 import BackButton from "@/app/components/BackButton";
+
+// 静的生成用のパラメータを生成
+export async function generateStaticParams() {
+  const movies = await fetchPopularMovies('ja-JP', 1);
+  return movies.slice(0, 20).map((movie) => ({
+    id: movie.id.toString(),
+  }));
+}
 
 export async function generateMetadata({ params }) {
   const movie = await fetchMovieDetails(params.id);

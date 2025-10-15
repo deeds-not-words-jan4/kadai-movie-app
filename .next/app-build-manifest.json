@@ -1,26 +1,43 @@
 {
   "pages": {
-    "/tmdb-test/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/tmdb-test/page.css",
-      "static/chunks/app/tmdb-test/page.js"
+    "/_not-found/page": [
+      "static/chunks/webpack-90a2413bca7a06ef.js",
+      "static/chunks/fd9d1056-749e5812300142af.js",
+      "static/chunks/117-95aab49cccdd7fee.js",
+      "static/chunks/main-app-25bb0e64d590164e.js",
+      "static/chunks/app/_not-found/page-b03752d0b91e0dcb.js"
     ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-90a2413bca7a06ef.js",
+      "static/chunks/fd9d1056-749e5812300142af.js",
+      "static/chunks/117-95aab49cccdd7fee.js",
+      "static/chunks/main-app-25bb0e64d590164e.js",
+      "static/css/b6eaf3c7955618c9.css",
+      "static/chunks/app/layout-d64ea0552fe4a26a.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-90a2413bca7a06ef.js",
+      "static/chunks/fd9d1056-749e5812300142af.js",
+      "static/chunks/117-95aab49cccdd7fee.js",
+      "static/chunks/main-app-25bb0e64d590164e.js",
+      "static/chunks/app/page-0a8b9a7b052e6eac.js"
+    ],
+    "/tmdb-test/page": [
+      "static/chunks/webpack-90a2413bca7a06ef.js",
+      "static/chunks/fd9d1056-749e5812300142af.js",
+      "static/chunks/117-95aab49cccdd7fee.js",
+      "static/chunks/main-app-25bb0e64d590164e.js",
+      "static/css/6e9d886af74908bc.css",
+      "static/chunks/609-9be2a880a997929c.js",
+      "static/chunks/app/tmdb-test/page-3a19adffe07b8564.js"
     ],
     "/tmdb-test/[id]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/tmdb-test/[id]/page.js"
-    ],
-    "/_not-found/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/webpack-90a2413bca7a06ef.js",
+      "static/chunks/fd9d1056-749e5812300142af.js",
+      "static/chunks/117-95aab49cccdd7fee.js",
+      "static/chunks/main-app-25bb0e64d590164e.js",
+      "static/chunks/609-9be2a880a997929c.js",
+      "static/chunks/app/tmdb-test/[id]/page-81af5c93a906a094.js"
     ]
   }
 }
